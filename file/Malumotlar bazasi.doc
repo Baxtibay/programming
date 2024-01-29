@@ -1,0 +1,589 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<meta http-equiv="Content-Type" content="charset=utf-8" />Sql da natijani tartiblash uchun qaysi kalit so’zdan foydalaniladi?<br /> 
+<br />SQL da natijani tartiblash uchun qaysi kalit so’zdan foydalaniladi?
+<br />#ORDER BY
+<br />ORDER
+<br />SORT
+<br />SORT BY
+<p>MBBT ni paydo bo’lish tarixida nechta til qo’shib ishlatilgan?</p>
+
+<br />#3
+<br />4
+<br />7
+<br />10
+<br />
+<p>MBBT da yozuvlarni adreslashda qaysi qidiruv usulini to’g’ridan-to’g’ri murojat qurilmalarida ishlatib bo’lmaydi?</p>
+
+<br />#Binar qidirish
+<br />Blokli qidirish
+<br />Chiziqli qidirish
+<br />birma bir qidirish
+<p>.... – bu ma’lumotlar o’zaro bog’langan tuzilishlari va ular ustida bajariladigan operatsiyalar to’plamidir.</p>
+
+<br />#Ma’lumotlar modeli
+<br />Baza loyixasi
+<br />Ma’lumot atributi
+<br />Ma'lumot tuzilishi
+<p>Ma’lumotlar bazasini loyixalashtirish jarayoni nechta bosqichga bo’linadi?</p>
+
+<br />#2
+<br />3
+<br />4
+<br />5
+<p>Infologik model diagrammasini qurishda romb shakli nimani bildiradi?</p>
+
+<br />#Ob’ektlar orasidagi aloqa
+<br />Diagramma ob’ektlari
+<br />Ob’ekt atributlari
+<br />bunday shakl ishlatilmaydi
+<p>Ma’lumotlarni relyatsion modeli kim tomonidan taklif etilgan?</p>
+
+<br />#Edgar Kodd
+<br />Nikolas Virt
+<br />Simonov M.
+<br />Eyler
+<p>... – bu ob’ekt atributini mumkin bo’lgan barcha qiymatlar to’plamidir.</p>
+
+<br />#Domen
+<br />Ustun
+<br />Yozuv
+<br />jadval
+<p>Kortejlar soni deganda nima tushuniladi?</p>
+
+<br />#Kardinal soni
+<br />Munosabat darajasi
+<br />Birlamchi kalitlar
+<br />ikkilamchi kalitlar
+<p>Relyatsion algebra Kodd tomonidan aniqlangan nechta operatordan iborat?</p>
+
+<br />#8 ta
+<br />-9 ta
+<br />-12 ta
+<br />10 ta
+<br />Relyatsion algebraning “birlashtirish” operatori SQL da qanday ifodalanadi?
+<br />#UNION
+<br />EXCEPT
+<br />SELECT
+<br />MINUS
+<p>Relyatsion algebraning “kesishma” operatori SQL da qanday ifodalanadi?</p>
+
+<br />#INTERSECT
+<br />SELECT
+<br />UNION
+<br />JOIN
+<p>Relyatsion algebraning “Ayirish” operatori SQL da qanday ifodalanadi?</p>
+
+<br />#EXCEPT
+<br />SELECT
+<br />WHERE
+<br />DISTINCT
+<p>Relyatsion algebraning “ulash” operatori SQL da qanday ifodalanadi?</p>
+
+<br />#JOIN
+<br />INSERT
+<br />UPDATE
+<br />DELETE
+<p>Ma’lumotlar bazasi ichida ortiqcha ma’lumotlarni olib tashlash imkonini beradigan jarayonga nima deyiladi?</p>
+
+<br />#Normallashtirish
+<br />Bog’lash
+<br />Ulash
+<br />Kesishish
+<p>HAVING operatori qanday operator?</p>
+
+<br />#Shart
+<br />Tanlash
+<br />O'zgartirish
+<br />Kiritish
+<p>Qiymat mavjud emasligini tekshiruvchi operator qaysi?</p>
+
+<br />#IS NULL
+<br />IN
+<br />OR
+<br />AND
+<p>Guruxli funktsiyalardan jadvaldagi satrlar sonini aniqlab beruvchi operator qaysi?</p>
+
+<br />#Count
+<br />Sum
+<br />Avg
+<br />MIN
+<p>Guruxli funktsiyalarda tanlab olingan maydon qiymatlarini o’rta arifmetigini chiqaruvchi operator?</p>
+
+<br />#AVG
+<br />SUM
+<br />COUNT
+<br />MAX
+<p>SQL da foydalanuvchiga ruxsatni beruvchi operator qaysi?</p>
+
+<br />#GRANT
+<br />CREATE USER
+<br />ALTER
+<br />DELETE
+<p>Jadvalda indeks yaratish huquqini beruvchi operator</p>
+
+<br />#Index
+<br />Synonym
+<br />Delete
+<br />UNIQUE
+<p>…..- bu imtiyozga ega foydalanuvchi jadvalni ustunidan ajdod kalit sifatida foydalanadi.</p>
+
+<br />#REFERENCES
+<br />UPDATE
+<br />INDEX
+<br />ALTER
+<p>GRANT komandasini nechta formati mavjud?</p>
+
+<br />#4
+<br />6
+<br />8
+<br />12
+<p>Rol nechta qismdan iborat</p>
+
+<br />#2
+<br />3
+<br />4
+<br />8
+<p>Foydalanuvchi imtiyozlarini ko’rish uchun qaysi operatordan foydalaniladi?</p>
+
+<br />#SHOW GRANTS
+<br />BETWEEN
+<br />DROP
+<br />ALTER
+<br />
+<p>Ma’lumotlar bazasidan ma’lumotlarni chiqarish uchun qaysi SQL operatoridan foydalaniladi?</p>
+
+<br />#SELECT
+<br />EXTRACT
+<br />GET
+<br />OPEN
+<br />Qaysi SQL operatori yordamida ma’lumotlar bazasidagi ma’lumotlarni yangilash(o’zgartirish) mumkin?
+<br />#UPDATE
+<br />MODIFY
+<br />SAVE AS
+<br />SAVE
+<br />Ma’lumotlar bazasidan ma’lumotlarni o’chirish uchun qaysi SQL operatoridan foydalaniladi?
+<br />#DELETE
+<br />COLLAPSE
+<br />REMOVE
+<br />DROP
+<p>Qaysi SQL operatori yordamida ma’lumotlar bazasidagi jadvallarga yangi ma’lumotlarni kiritishimiz mumkin?</p>
+
+<br />#INSERT INTO
+<br />ADD RECORD
+<br />ADD NEW
+<br />INSERT NEW
+<br />
+<p>Foydalanuvchini o’chirish operatori qaysi?</p>
+
+<br />#DROP USER
+<br />DELATE USER
+<br />REVOKE
+<br />GRANT
+<p>Maydondagi yozuvni qidirishning kalit so’zi qaysi qatorda to’g’ri ko’rsatilgan?</p>
+
+<br />#LIKE
+<br />GET
+<br />FROM
+<br />GROUP
+<p>Maydon bu?</p>
+
+<br />jadval qatori
+<br />#jadval ustuni
+<br />bir xil turdagi ma'lumotlarning umumiyligi
+<br />jadval nomi
+<p>SQL ning qaysi operatori faqat turli qiymatlarni qaytarish uchun ishlatiladi?</p>
+
+<br />#SELECT DISTINCT
+<br />SELECT UNIQUE
+<br />SELECT DIFFERENT
+<br />SELECT CHECK
+<br />
+<p>SQL so’zining kengaytmasi...</p>
+
+<br />#Structured Query Language
+<br />Strong Question Language
+<br />Structured Question Language
+<br />Structured Question layer
+<br />
+<p>OR operatori keltirilgan shartlarning birortasi rost bo’lsa ham natija rost bo’ladi AND operatori keltirilgan shartlarning hammasi rost bo’lgandagina rost qiymat qaytaradi. Ushbu jumla haqida to'g'ri ma'lumot berilgan variant qaysi?</p>
+
+<br />#To’g’ri
+<br />Yolg’on
+<br />AND mantiqiy operator emas
+<br />OR mantiqiy operator emas
+<br />
+<p>Ma’lumotlar banki tushunchasi nechta turda talqin etiladi?</p>
+
+<br />#2
+<br />5
+<br />3
+<br />4
+<br />Jadvallarni birlashtirishning eng ko’p qo’llaniladigan turi qaysi?
+<br />#INNER JOIN
+<br />JOINED TABLE
+<br />JOINED
+<br />INSIDE JOIN
+<br />Oraliqdagi qiymatlarni tanlash uchun qaysi operatordan foydalaniladi?
+<br />#BETWEEN
+<br />WITHIN
+<br />RANGE
+<br />LIKE
+<p>Qaysi kalit so’zlar yordamida ma’lumotlar bazasida yangidan tablitsa yaratishimiz mumkin?</p>
+
+<br />#CREATE TABLE
+<br />CREATE DB
+<br />CREATE DATABASE TAB
+<br />CREATE DATABASE TABLE
+<br />Ma'lumotlar bazasi?
+<br />bitta disketada to'plangan ma'lumotlar to'plami;
+<br />dastur uchun mo'ljallangan ma'lumotlar;
+<br />#ma'lumotlarni tavsiflash, saqlash va qayta ishlashning umumiy printsiplarini nazarda tutuvchi muayyan qoidalarga muvofiq tashkil etilgan o'zaro bog'liq ma'lumotlar to'plami;
+<br />Ma'lumotlar aloqa tarmoqlari orqali yuboriladi.
+<br />Faktlar bazasi?
+<br />#Ta'riflangan ob'ektlar to'g'risida qisqacha ma'lumotni o'z ichiga olgan ma'lumotlar bazasi, qat'iy belgilangan formatda taqdim etilgan;
+<br />Har xil turdagi keng qamrovli ma'lumotlarni o'z ichiga olgan ma'lumotlar bazasi: matnli, grafik, ovozli, multimedia;
+<br />Ma'lum bir yo'nalishga oid ma'lumotlarni o'z ichiga olgan MB;
+<br />Shaxsiy kompyuter foydalanuvchisining ma'lumotlarini o'z ichiga olgan ma'lumotlar bazasi.
+<br />Faktografik ma'lumotlar bazasiga (BD) misol sifatida quyidagilar kiradi:
+<br />#muassasaning shaxsiy tarkibi to'g'risidagi ma'lumotlar;
+<br />qonun hujjatlari;
+<br />muassasa buyurtmalari;
+<br />normativ moliyaviy hujjatlar.
+<br />Axborot tizimi?
+<br />Internet tarmog'i holati to'g'risidagi ma'lumotlarni saqlaydigan tizim
+<br />ma'lumotlarni olish uchun mo'ljallangan apparat va dasturiy ta'minot majmui;
+<br />#foydalanuvchi bilan o'zaro aloqada bo'lish uchun ma'lumotlar bazasi va uni saqlash, o'zgartirish va qidirish uchun mo'ljallangan barcha dasturiy-texnik vositalar majmui;
+<br />Foydalanuvchiga kerakli ma'lumotlarni taqdim etadigan tizim.
+<br />MBBT dastur majmualaridan qachondan boshlab foydalanila boshlangan?
+<br />#XX asrning 60-yillari
+<br />XX asrning 70-yillari
+<br />XX asrning 10-yillari
+<br />XIX asrning 60-yillari
+<p>Ierarxik ma'lumotlar bazasi?</p>
+
+<br />To'rtburchaklar jadvallar ko'rinishidagi ma'lumotlar tashkil etiladigan ma'lumotlar bazasi;
+<br />#Bitta element asosiy deb hisoblanadi, qolganlari bo'ysunadi;
+<br />Yozuvlar tasodifiy tartibda joylashgan ma'lumotlar bazasi;
+<br />Vertikal ierarxik munosabatlarga qo'shimcha ravishda gorizontal aloqalarni o'rnatish mumkin bo'lgan ma'lumotlar bazasi.
+<br />Ierarxik bazada ma'lumotlar yig'indisi va ular o'rtasidagi munosabatlar qanday ko`rinishda tavsiflanadi:
+<br />tarmoq sxemasi;
+<br />#daraxt tuzilishi;
+<br />jadvallar to'plami.
+<br />bunday baza mavjud emas
+<br />Ierarxik ma'lumotlar bazasiga misol:
+<br />#diskda saqlanadigan fayllar katalogi;
+<br />poezdlar jadvali;
+<br />elektron jadval.
+<br />reja grafik
+<p>Nisbiy ma'lumotlar bazasi (MB) sohasida quyidagilar yozilishi mumkin:</p>
+
+<br />faqat rekord raqamlar;
+<br />bir vaqtning o'zida ikkala raqamli va matnli ma'lumotlar;
+<br />#faqat bitta turdagi ma'lumotlar;
+<br />faqat yozuvlarni yaratish uchun vaqt.
+<br />0.7-3> 2 ifodasining qiymati quyidagi ma'lumotlar qaysi turiga tegishli:
+<br />sonli
+<br />#mantiqiy
+<br />matnli
+<br />grafik
+<p>Ma'lumotlar bazasini boshqarish tizimi (MBBT) bu:</p>
+
+<br />#ma'lumotlar bazasi fayllarida ma'lumotlarni to'ldirish va boshqarishni qo'llab-quvvatlovchi dasturiy ta'minot tizimi;
+<br />barcha kompyuter qurilmalarining ishlashini va ularga foydalanuvchilarning kirishini ta'minlaydigan dasturlar to'plami;
+<br />matnlar va turli xil hujjatlarni qayta ishlash uchun ishlangan dasturi;
+<br />fayllar bilan ishlashni qulayroq qilish imkonini beradigan operatsion tizimning qobig'i.
+<br />Ma'lumotlar bazasining asosiy funktsiyalari quyidagilarni o'z ichiga olmaydi:
+<br />#ma'lumotlar bazasida qanday ma'lumot (nima to'g'risida) saqlanishini aniqlash;
+<br />ma'lumotlar bazasi fayllari tuzilishini yaratish;
+<br />ma'lumotlarni birlamchi kiritish, to'ldirish, tahrirlash;
+<br />Ma'lumotlarni qidirish va tartiblash.
+<br />Jadval tuzilishi - bu nima?
+<br />jadvalning umumiy ko'rinishi;
+<br />Jadval satrlarining tavsifi
+<br />#Jadval ustunlarining tavsifi
+<br />jadvalning qatorlari va ustunlari soni.
+<br />Ixtiyoriy predmet, xodisa yoki jarayon nima deyiladi?
+<br />#Ob’ekt
+<br />Sub’ekt
+<br />Predmet soxa
+<br />Ma'lumotlar bazasi
+<p>Ma’lumotlar bazasiga berilgan to'g’ri ta’rifni toping ?</p>
+
+<br />EHM orqali izlash va qayta ishlash uchun tizimlashtirilgan mustaqil axborotlarning ob’ektli (aniq strukturali) formada tasvirlanishidir.
+<br />Tizimlashtirilgan mustaqil axborotlarning aniq formada tasvirlanishidir.
+<br />#EHM orqali izlash va qayta ishlash uchun tizimlashtirilgan mustaqil axborotlarning ob’ektli va mantiqiy bog’lanishli formada tasvirlanishidir.
+<br />Qayta ishlash uchun tizimlashtirilgan mustaqil axborotlarning mantiqiy bog’lanishli formada tasvirlanishidir.
+<br />Ma’lumotlar bazasini boshqarish tizimi deganda nimani tushunasiz ?
+<br />ma’lumotlar bazalarini yaratish uchun dasturiy ta’minot
+<br />ma’lumotlar bazalarini yaratish va foydalanish uchun dasturiy ta’minot
+<br />ma’lumotlar bazalarini yaratish va foydalanish uchun boshqarishni ta’minlovchi dasturiy ta’minot
+<br />#ma’lumotlar bazalarini yaratish va foydalanish uchun boshqarishni ta’minlovchi, maxsus lingvistik vositalar majmuiga ega bo'lgan dasturiy ta’minot
+<br />Bitta MBBTda nechtagacha MB bo'lishi mumkin?
+<br />#Bir nechta
+<br />1 ta
+<br />2 ta
+<br />Turli MBBTlarda turlicha
+<br />Relyatsion ma’lumotlar bazasining asosiy tushunchalari aniqlang?
+<br />Jadval, ustun, qator
+<br />Jadval, ustun, yozuv
+<br />#Jadval, maydon, yozuv
+<br />Jadval, ustun, yacheyka
+<br />SQL tilining alfavitida nechta harf bor ?
+<br />26
+<br />#27
+<br />57
+<br />56
+<p>Relyatsion ma’lumotlar bazasi bu-</p>
+
+<br />#munosabatlarning majmuisi eki ikkilik jadvallari
+<br />munosabatlarning majmuisi eki ikkilik bazasi
+<br />munosabatlarning majmuisi eki ikkilik katorlar
+<br />barcha javoblar to'g’ri
+<br />Modellar ma’lumotlari
+<br />#buyurtmachi tasavvuridagi modelb sistemalari, buyurtmachi modeli, jadval kurinishidagi moxiyatli modellar kurinishidagi, jadvallar diskda
+<br />moxiyatli madelni jadval kurinishidagi modelda jadvallar diskda
+<br />buyurtmachi modeli moxiyatli modelb kurinishida takdim etiladi, sistema modeli takdim etilganligida va buyurtmachida
+<br />jadvallar diskda, moxityali modelb jadval kurinishidagi modelb kiefasida
+<br />Relyatsion ma’lumotlar bazasi
+<br />uzgartirish va foyladanish xukukini beruvchi strukturalangan surovlar tilidir
+<br />fizik kursatgichlarsiz jadvallarni majmuasi uzida mujassamlashtirgan
+<br />kator operatorlardan foydalaniladi
+<br />#barcha javoblar to'g’ri
+<br />Ob'ektlar xolatini aks ettiruvchi va ko'rilayotgan predmet sohasida ular orasidagi munosabatlarni nomlangan ma'lumotlar to’plami deb ataladi.
+<br />#ma'lumotlar bazalari
+<br />ma'lumotlar banklari
+<br />ilovalar
+<br />ma'lumotlar lug'ati
+<br />Markazlashtirilgan to’plam va ma'lumotlardan jamoaviy foydalanish zarur bo’lgan dasturiy, til, tashkiliy va texnik vositalar tizimi…. deb ataladi.
+<br />ma'lumotlar bazalari
+<br />#ma'lumotlar banklari
+<br />ilovalar
+<br />ma'lumotlar lug'ati
+<br />Amaliy masalalar uchun avtomatlashtirilgan ishlov berishni ta'minlovchi dastur yoki dasturlar kompleksiga deyiladi.
+<br />ma'lumotlar bazalari
+<br />#ma'lumotlar banklari
+<br />ilovalar
+<br />ma'lumotlar lug'ati
+<br />Qo'llanish tavsifiga ko’ra MBBTlar qanday turlarga bo’linadi?
+<br />Bir pog'onali va ko'p pog'onali
+<br />shaxsiy va jamoaviy
+<br />To'liq va to'liq emas
+<br />#shaxsiy va ko'p foydalanuvchilar
+<br />Ma'lumotlar bazalarini muvoffaqiyatli amal qilishining zaruriy sharti bu...dir.
+<br />O'zgarishlar jurnalini yuritish
+<br />#yaxlitlikni ta'minlash
+<br />Ma'lumotlar lug'ati
+<br />Seriallashtirish
+<br />Ma'lumotlar bilan asosiy amallarni bajarilishini ta'minlovchi aslahalar to’plamiga … deyiladi.
+<br />tranzaktsiya
+<br />Ma'lumotlarni tasvirlash tili
+<br />Ma'lumotlar lug'ati
+<br />#Ma'lumotlar bilan ish olib borish tili
+<br />Tezkorlik va xotira sarfi ko rsatkichlari bo yicha samarali ish olib borish imkoniyati bu……yutug'idir.
+<br />lerarxik modellar
+<br />Relyatsion modellar
+<br />Ko'p o'lchamli modellar
+<br />#tarmoq modellari
+<br />Ma’nosiga e’tibor bermay qaraladigan ixtiyoriy simvollar to’plami nima deyiladi?
+<br />#Ma’lumot
+<br />Ob’ekt
+<br />Atribut
+<br />jadval
+<br />Tartiblangan yozuvlarning majmuasi nima deyiladi?
+<br />#Ma’lumot fayli
+<br />Ma’lumot yozuvlari
+<br />Ma’lumot elementi
+<br />Ma'lumot atributi
+<br />Tashqi xotira qurilmasida ketma-ket joylashgan fizik yozuvlar jamlanmasi nima?
+<br />#Ekstent
+<br />Fizik yozuv
+<br />Kortej
+<br />Atribut
+<p>Kortej bu nima?</p>
+
+<br />#Jadvalning kalit so’zi
+<br />Jadval nomi
+<br />Ma’lumot tipi
+<br />Ma’lumot elementi
+<br />Bir yoki bir nechta takrorlanuvchi ma’lumotlar guruxiga ega bo’lgan jadvalga nima deb ataladi?
+<br />#Normal bo’lmagan forma
+<br />Normal forma
+<br />Massiv
+<br />Bo'sh forma
+<p>SEQUEL deb nomlangan tilni 1974- yilda kim e’lon qilgan?</p>
+
+<br />#D.Chemberlen
+<br />Efkod
+<br />E.Kodd
+<br />Eyler
+<p>SEQUEL/2 versiyasi nechanchi yil yaratilgan va SQL deb atala boshlangan?</p>
+
+<br />#1976
+<br />1958
+<br />1966
+<br />1876
+<p>SQL tilining 1- rasmiy standarti nechanchi yilda qabul qilingan?</p>
+
+<br />#1989
+<br />1988
+<br />1976
+<br />1998
+<p>Qachon SQL 2 versiyasi ishlab chiqilgan?</p>
+
+<br />#1992-yil oxiri
+<br />1992-yil boshi
+<br />1991-yil
+<br />1993-yil
+<p>SQL operatorlari asosan nechta guruxga bo’linadi?</p>
+
+<br />#4
+<br />5
+<br />6
+<br />8
+<p>Ma’lumotlar bazasida ob’ektlarni hosil qiluvchi operatorlar guruxiga nima deyiladi?</p>
+
+<br />#DDL
+<br />DML
+<br />DSL
+<br />TCL
+<p>MB da ma’lumotlarni monipulyatsiya qiluvchi operatorlar yig’indisidan iborat bo’lgan guruxiga nima deyiladi?</p>
+
+<br />#DML
+<br />DTL
+<br />DSL
+<br />TCL
+<p>SQL da LIKE operatorida “_” belgisi nimani bildiradi?</p>
+
+<br />#Bitta ixtiyoriy simvol
+<br />Ixtiyoriy simvol
+<br />oxirgi simvol
+<br />To’g’ri javob yo’q
+<br />Biror qiymatlar to’plamiga tegishliligini tekshiruvchi operator qaysi?
+<br />#In
+<br />Or
+<br />Null
+<br />IS
+<p>JOIN ni asosiy turlari nechta?</p>
+
+<br />#6
+<br />2
+<br />7
+<br />5
+<p>Asosiy agregat funktsiyalar nechta?</p>
+
+<br />#6
+<br />5
+<br />3
+<br />8
+<p>EXISTS operatori qanday qiymatlar qaytaradi?</p>
+
+<br />#“true” yoki “false”
+<br />Faqat “true”
+<br />Faqat “false”
+<br />Qiymat qaytarmaydi
+<p>Tasavvurlar qanday yaratiladi?</p>
+
+<br />#CREATE VIEW
+<br />INSERT VIEW
+<br />ALTER VIEW
+<br />NEW VIEW
+<p>Protsedurani o’zgartirish operatori qaysi?</p>
+
+<br />#ALTER PROCEDURE
+<br />DROP PROCEDURE
+<br />CREATE PROCEDURE
+<br />CHANGE PROCEDURE
+<p>…..- bu MBBT yadro tomonidan bajariladigan dasturlardir</p>
+
+<br />#TRIGGER
+<br />PROCEDURE
+<br />FUNCTION
+<br />So'rovlar
+<p>Triggerni yaratishda trigger nomidan oldin qaysi kalit so’zidan foydalaniladi?</p>
+
+<br />#CREATE TRIGGER
+<br />ALTER TRIGGER
+<br />DROP TRIGGER
+<br />NEW TRIGGER
+<p>Jadvalga yangi ma’lumot qo’shish qaysi operator bilan amalga oshiriladi?</p>
+
+<br />#Insert
+<br />Update
+<br />Delete
+<br />NEW
+<p>Jadvaldagi ma’lumotni o’chirish qaysi operator bilan amalga oshiriladi?</p>
+
+<br />#Delete
+<br />Insert
+<br />Uptate
+<br />DROP
+<p>Tranzaktsiyani va ma’lumotlar bazasidagi barcha o’zgarishlarni bekor qiluvchi operator qaysi?</p>
+
+<br />#ROLLBACK
+<br />CUMMIT
+<br />DROP
+<br />SELECT
+<br />
+<p>Domenni o’zgartirish operatori qaysi?</p>
+
+<br />#ALTER
+<br />INSERT
+<br />DROP
+<br />DELETE
+<p>Jadvaldan bir xil ma’lumotlarni olib tashlovchi operator qaysi?</p>
+
+<br />#DISTINCT
+<br />COUNT
+<br />ORDER BY
+<br />GROUP BY
+<p>Muayan rollardan imtiyozlarni bekor qilish uchun qaysi operator ishlatiladi?</p>
+
+<br />#REVOKE
+<br />DELETE
+<br />DROP
+<br />GRANT
+<p>Prepare, declare, open, fitch, close SQL ni qaysi operatorlar guruxiga kiradi.</p>
+
+<br />#Dasturlashtirish
+<br />Ma’lumotlarni o’zgartirish
+<br />Ruxsatlarni boshqarish
+<br />Manipulyatsiya qilish
+<p>GRANT, REVOKE, DENY SQL ni qaysi operatorlar guruxiga kiradi?</p>
+
+<br />#Ruxsatlarni boshqarish
+<br />Ma’lumot tanlash
+<br />Dasturlash
+<br />Manipulyatsiya qilish
+<p>Relyatsion MB da yozuvlar qanday strukturaga ega?</p>
+
+<br />#Chiziqli
+<br />Chiziqsiz
+<br />Ixtiyoriy
+<br />Tarmoqli
+<p>MB ning ierarxik modellarida yozuvlar qanday strukturada bo’ladi?</p>
+
+<br />#Daraxtsimon
+<br />Chiziqli
+<br />Chiziqsiz
+<br />Tarmoqli
+<p>Ierarxik model elementlari o’rtasidagi bog’lanishda qaysi usul qo’llaniladi?</p>
+
+<br />#Bittadan ko’pchilikka
+<br />Ko’pchilikdan ko’pchilikka
+<br />Ko’pchilikdan bittaga
+<br />Bittadan bittaga
+<p>Ma’lumotlarning relyatson modeliga asoslangan tizim qaysi?</p>
+
+<br />#Acces
+<br />cetor
+<br />ines
+<br />Mongo
+<br />
+<p>Infologik model diagrammasini qurishda to’rt burchak shakl nimani bildiradi?</p>
+
+<br />#Diagramma ob’ekt
+<br />Aloqa
+<br />Atrebut
+<br />Bunday shakl qo'llanilmaydi<br />http://fayllar.org</html>

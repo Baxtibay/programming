@@ -56,6 +56,11 @@ img {
   background-color: var(--standard-color);
 }
 
+.answer__link {
+  text-decoration: none;
+  color: #888;
+}
+
 
 /* CONTAINER  */
 .container {
