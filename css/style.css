@@ -48,6 +48,7 @@ img {
 }
 
 .button-primary:not(:last-child) {
+  margin-right: 5px;
   margin-bottom: 5px;
 }
 
@@ -59,6 +60,12 @@ img {
 .answer__link {
   text-decoration: none;
   color: #888;
+}
+
+/* js class */
+.background-color {
+  background-color: var(--standard-color);
+  color: #fff;
 }
 
 
@@ -114,6 +121,7 @@ img {
 .form {
   width: 68%;
   margin-top: 70px;
+  margin-right: 20px;
 }
 
 .test-list {
@@ -141,12 +149,12 @@ img {
 }
 
 .result {
-  /* width: 30%; */
   padding: 10px;
+  padding-left: 30px;
   position: sticky;
   top: 70px;
   right: 0;
-  max-width: 400px;
+  max-width: 435px;
   margin-left: auto;
   border-radius: 4px;
   background-color: var(--white-color);
@@ -158,6 +166,10 @@ img {
   padding-bottom: 20px;
   font-size: 18px;
   color: #666;
+}
+
+.answer-input {
+  margin-right: 10px;
 }
 
 .button-submit {
