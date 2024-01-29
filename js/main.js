@@ -3,6 +3,783 @@ const form = document.querySelector('.form');
 
 const answersDB = () => [
   {
+    quostion: "Mazmun-baylanıs diagrammasında ushıraytuǵın formanı tabıń",
+    a: "!Ellips",
+    b: "Parallelogram",
+    c: "Sheńber",
+    d: "Trapeciya"
+  },
+  {
+    quostion: "Kestedegi qatarlar sanı qanday esaplanadı",
+    a: "AVG funkciyası járdeminde",
+    b: "MIN funkciyası járdeminde",
+    c: "MAX funkciyası járdeminde",
+    d: "!COUNT funkciyası járdeminde"
+  },
+  {
+    quostion: "Mazmun-baylanıs modeliniń tiykarǵı túsinikleri",
+    a: "!mazmun, atribut, baylanıs",
+    b: "atribut, keste, baylanıs",
+    c: "obyekt, qásiyet, Qatnas",
+    d: "gilt, mánis, associaciya"
+  },
+  {
+    quostion: "COUNT() agregat funkciyanıń wazıypasın aytıń",
+    a: "Belgilengen obyekttiń orta arifmetigin tabıw",
+    b: "!Belgilengen obyekttiń qatarlar sanın tabıw",
+    c: "Belgilengen qatardın qatarlar sanın tabıw",
+    d: "Belgilengen elementtiń orta arifmetigin tabıw"
+  },
+  {
+    quostion: "SELECT operatorınıń wazıypası?",
+    a: "Kesteden tańlaw",
+    b: "!Kesteden maǵlıwmatlardı tańlaw",
+    c: "Kestege qatar qosıw",
+    d: "Kesteni ózgertiw"
+  },
+  {
+    quostion: "Qaysı predikat berilgen shártti qanaatlandırıwshı izlewdi ámelge asıradı?",
+    a: "HAVING",
+    b: "ORDER BY",
+    c: "!WHERE",
+    d: "GROUP BY"
+  },
+  {
+    quostion: "Relyaciyalıq maǵlıwmatlar bazasında qaysı soraw tilleri qollanıladı",
+    a: "!SQL",
+    b: "Objective C",
+    c: "Haskell",
+    d: "Basic"
+  },
+  {
+    quostion: "SELECT SUBSTR(`familiya`,1,1) FROM `xızmetkerler`; soraw nátiyjesin tabın",
+    a: "Xızmetkerler familyalarınıń birinshisin shıǵaradı",
+    b: "Xızmetkerler familyalarınıń bir háribin shıǵaradı",
+    c: "Sorawda qátelik beredi",
+    d: "!Xızmetkerler familyalarınıń bas háriplerin shıǵaradı"
+  },
+  {
+    quostion: "Unikal identifikator ne",
+    a: "!Bir qatardı basqa qatardan ajıratıp turatuǵın mániske iye baǵana",
+    b: "Keste atı",
+    c: "Baǵana atı",
+    d: "Qatar hám baǵanalardın sáykesligi"
+  },
+  {
+    quostion: "Qaysı predikat toparlaw ushın isletiledi?",
+    a: "ORDER BY",
+    b: "!GROUP BY",
+    c: "WHERE",
+    d: "HAVING"
+  },
+  {
+    quostion: "MBBSda DML tilin wazıypası ne?",
+    a: "Maǵlıwmatlardı súwretlew tili",
+    b: "Maǵlıwmatlardı qadaǵalaw tili",
+    c: "Maǵlıwmatlardı saqlaw tili",
+    d: "!Maǵlıwmatlardı manipulyaciya qılıw tili"
+  },
+  {
+    quostion: "select year from test where name='Jonny'); Sorawdaǵı year hám name neni ańlatadı?",
+    a: "Kestelerdi",
+    b: "Obyektlerdi",
+    c: "!Baǵanalardı",
+    d: "Qatarlardı"
+  },
+  {
+    quostion: "Qaysı operator járdeminde «kesilisiw» ámeli orınlanadı",
+    a: "DEVIDE",
+    b: "MINUS",
+    c: "!INNER JOIN",
+    d: "UNION"
+  },
+  {
+    quostion: "TRUE hám FALSE mánisin qabıl qılıwshı tipler qanday ataladı?",
+    a: "Qatar tipli",
+    b: "!Bul tipli",
+    c: "Pútin tipli",
+    d: "Sáne hám waqıt tipli"
+  },
+  {
+    quostion: "Ishki baylanıs operatorı – bul",
+    a: "RIGHT OUTER JOIN",
+    b: "LEFT OUTER JOIN",
+    c: "!INNER JOIN",
+    d: "FULL OUTER JOIN"
+  },
+  {
+    quostion: "Ónim kestesinen bahası 4000 som hám onnan joqarı bolǵanların atı boyınsha toparlap shıǵarıw sorawı qaysı juwapta tuwrı kórsetilgen",
+    a: "SELECT `Atı`, MAX(`baha`) as `Nátiyje` from GROUP BY `Atı` HAVING MAX(`baha`)>4000",
+    b: "SELECT * from `Ónim` GROUP BY `Atı` HAVING MAX(`baha`)>4000",
+    c: "SELECT `Atı`, MAX(`baha`) as `Nátiyje` from `Ónim` GROUP BY `baha` HAVING MAX(`Atı`)>=4000",
+    d: "!SELECT `Atı`, MAX(`baha`) as `Nátiyje` from `Ónim` GROUP BY `Atı` HAVING MAX(`baha`)>=4000"
+  },
+  {
+    quostion: "SELECT operatorınan FROM sózinen keyingi jazıw neni bildiredi?",
+    a: "shártti",
+    b: "birlemshi giltti",
+    c: "!kesteniń atın",
+    d: "baǵananıń atın"
+  },
+  {
+    quostion: "MB daǵı maǵlıwmatlardıń tranzakciya logikalıq birligi ne dep ataladı",
+    a: "Operaciya",
+    b: "Oqıw",
+    c: "Jazıwlardı dizimge alıw",
+    d: "!Tranzakciya"
+  },
+  {
+    quostion: "LIKE durıs qollanılǵan sorawdı kórsetiń",
+    a: "SELECT * FROM LIKE WHERE PName Products ‘%gizmo%’",
+    b: "SELECT LIKE(‘%gizmo%’) FROM Products WHERE PName",
+    c: "SELECT * FROM Products, PName LIKE ‘%gizmo%’",
+    d: "!SELECT * FROM Products WHERE PName LIKE ‘%gizmo%’"
+  },
+  {
+    quostion: "DROP hám DELETE operatorlarınıń parqı nede",
+    a: "SQLde DROP isletilmeydi",
+    b: "SQLde DELETE isletilmeydi",
+    c: "!DROP obyektti, DELETE qatardı óshiredi",
+    d: "Parqı joq"
+  },
+  {
+    quostion: "UPDATE operatorınıń wazıypası?",
+    a: "Kesteden tańlaw",
+    b: "!Kestede qatardı ózgertiw",
+    c: "Kestege qatar qosıw",
+    d: "Kesteni ózgertiw"
+  },
+  {
+    quostion: "Relyaciyalıq túrdegi maǵlıwmatlar bazası obyektleri neshe ólshewli kesteni payda etedi?",
+    a: "úsh",
+    b: "tórt",
+    c: "!eki",
+    d: "bir"
+  },
+  {
+    quostion: "Maǵlıwmatlardı usınıwdıń ierarxiyalıq modelinde maǵlıwmatlar baylanısı qanday súwretlenedi",
+    a: "!terek túrindegi graf",
+    b: "qálegen graf",
+    c: "dizimler",
+    d: "kesteler"
+  },
+  {
+    quostion: "SELECT operatorınan keyin '*' belgisi neni bildiredi?",
+    a: "Keste qatarları juldızsha menen shifrlanǵanın",
+    b: "bul belgiden paydalanıp bolmaydı",
+    c: "!hámme baǵanalardı belgilewdi",
+    d: "hámme qatarlardı belgilewdi"
+  },
+  {
+    quostion: "MBBSda DCL tilin wazıypası ne?",
+    a: "Maǵlıwmatlardı súwretlew tili",
+    b: "Maǵlıwmatlardı manipulyaciya qılıw tili",
+    c: "Maǵlıwmatlardı saqlaw tili",
+    d: "!Maǵlıwmatlardı qadaǵalaw tili"
+  },
+  {
+    quostion: "SELECT MAX(id) FROM STUDENT sorawın ne qaytaradı",
+    a: "STUDENTtiń aqırǵı identifikatorı",
+    b: "STUDENTtiń aqırǵı identifikatorı",
+    c: "STUDENTlerdiń muǵdarı",
+    d: "!STUDENTtiń maksimal indentifikatorı"
+  },
+  {
+    quostion: "Qaysı SQL operatorları maǵlıwmatlar bazasında maǵlıwmatlardı manipulyaciyalawda isletiledi?",
+    a: "GRANT, REVOKE",
+    b: "!SELECT, UPDATE, INSERT, DELETE",
+    c: "MODIFY, TRUNCATE",
+    d: "CRATE, ALTER, DROP"
+  },
+  {
+    quostion: "Qaysı operatorda WHERE isletiwge bolmaydı?",
+    a: "SELECT",
+    b: "DELETE",
+    c: "!INSERT",
+    d: "UPDATE"
+  },
+  {
+    quostion: "Xızmetker kestesinen qálegen atributtı óshiriw ámeli qaysı juwapta tuwrı kórsetilgen",
+    a: "ALTER TABLE `Xızmetker` DELETE `Jınısı` varchar(10) not null",
+    b: "ALTER TABLE `Xızmetker` DROP RENAME `Jası` int(3) not null",
+    c: "ALTER TABLE `Xızmetker` CHANGE DROP `Tel_raqam` text(15) not null",
+    d: "!ALTER TABLE `Xızmetker` DROP COLUMN `Tel_raqam` text(15)"
+  },
+  {
+    quostion: "DML komandaların kórsetıń",
+    a: "INSERT, DROP, UPDATE, SELECT",
+    b: "CREATE, ALTER, DELETE",
+    c: "!INSERT, DELETE, UPDATE, SELECT",
+    d: "CREATE, ALTER, DROP"
+  },
+  {
+    quostion: "Qaysı operator járdeminde kestelerdi «qosıw» ámeli orınlanadı",
+    a: "SELECT + GROUP BY",
+    b: "SELECT + ORDER BY",
+    c: "!SELECT + JOIN",
+    d: "SELECT + WHERE"
+  },
+  {
+    quostion: "Qaysı juwapta INSERT INTO SELECT ámeli orınlanıw tartibi tuwrı keltirilgen?",
+    a: "Birinshi kesteden ekinshi kestege shártlerde berilgen maǵlıwmatlardı kóshiriwge ruxsat bermew",
+    b: "Tek ǵana birinshi kestege kóshiriw artıp ketse ekinshi kestege kóshiriw",
+    c: "Birinshi kestedegi hámme maǵlıwmatlardı ekinshi kestege kóshirip ótkeriw",
+    d: "!Birinshi kesteden ekinshi kestege shártlerde berilgen maǵlıwmatlardı kóshiriw"
+  },
+  {
+    quostion: "Bir tranzaciya neshe operaciyadan ibarat bolıwı múmkin",
+    a: "tek ǵana bir",
+    b: "tek ǵana eki",
+    c: "keminde ekewden",
+    d: "!bir neshe"
+  },
+  {
+    quostion: "Qaysı bir MBBS klient-server túrine kirmeydi",
+    a: "ORACLE",
+    b: "!ACCESS",
+    c: "MySQL",
+    d: "SQL Server"
+  },
+  {
+    quostion: "SQL tilin quramlıq bólimlerine kiredi: 1) maǵlıwmatlardı aniqlaw tili; 2) maǵlıwmatlardı manipulyaciyalaw tilleri; 3) maǵlıwmatlardı basqarıw tili; 4) programmalastırıw tilleri",
+    a: "2.3",
+    b: "1,3,4",
+    c: "!1, 2, 3",
+    d: "1,2,4"
+  },
+  {
+    quostion: "Select atı, jas, familiya from test where atı like 'S%'; Sorawdaǵı '%' ne ushın isletiledi",
+    a: "'S'ten keyin % bolıwı múmkin",
+    b: "'S%' simvollar bolıwı múmkin",
+    c: "!'S'ten keyin simvollar bolıwı múmkin",
+    d: "'S'ten aldın simvollar bolıwı múmkin"
+  },
+  {
+    quostion: "Izlew sorawların tezlestiriw ushın qaysı MBBS mexanizmi isletiledi",
+    a: "sorawlardıń orınlanıwın tezlestiriw múmkin emes",
+    b: "!indeksler",
+    c: "ekilemshi giltler",
+    d: "tranzaksiyalar"
+  },
+  {
+    quostion: "SELECT MAX(ID) FROM STUDENT sorawı neni qaytaradı",
+    a: "STUDENTtiń birinshi identifikatorı",
+    b: "STUDENTtiń aqırǵı identifikatorı",
+    c: "STUDENTlerdiń atların",
+    d: "!STUDENTtiń maksimal identifikatorı"
+  },
+  {
+    quostion: "AVG() agregat funkciyanıń wazıypasın aytıń",
+    a: "Belgilengen obyekttiń orta arifmetigin tabıw",
+    b: "!Belgilengen baǵananıń orta arifmetigin tabıw",
+    c: "Belgilengen qatardıń orta arifmetigin tabıw",
+    d: "Belgilengen kestenin orta arifmetigin tabıw"
+  },
+  {
+    quostion: "Maǵlıwmatlar bazasındaǵı informaciyalar qanday bolıwı kerek",
+    a: "!qarama – qarsı bolmawı; qátesız bolıwı; pútin bolıwı kerek",
+    b: "qarama – qarsı bolıwı; qátesız bolıwı",
+    c: "hár bir keste baǵanasında IDsi kórsetiliwi kerek",
+    d: "hár bir kestede tákirarlanıwı kerek"
+  },
+  {
+    quostion: "SQL keńeytpesi neni ańlatadı?",
+    a: "Tez soraw tili",
+    b: "!Strukturalasqan soraw tili",
+    c: "Izbe-iz soraw tili",
+    d: "Standart soraw tili"
+  },
+  {
+    quostion: "Tómendegi sorawda STUDENT neni ańlatadı: SELECT * FROM STUDENT;",
+    a: "tiyislilikti",
+    b: "!keste atı",
+    c: "indeks",
+    d: "baǵana atı"
+  },
+  {
+    quostion: "Agregat funkciyalardı kórsetiń",
+    a: "MIN, MAX, DATE, AVG",
+    b: "MIN, MAX,SUBSTR, MID",
+    c: "LEFT, RIGHT, MAX,Count,AVG",
+    d: "!MIN, MAX,Count, AVG"
+  },
+  {
+    quostion: "DELETE FROM Klientler WHERE KlientName=‘Alimov Bekzod’;",
+    a: "KlientName kestesinen ‘Alimov Bekzod’ atamalı Klient jazıwı óshiriledi",
+    b: "FROM Klient kestesinen KlientName ‘Alimov Bekzod’ bolǵan jazıw óshiriledi",
+    c: "Klient WHERE kestesinen KlientName ‘Alimov Bekzod’ bolǵan jazıw óshiriledi",
+    d: "!Klientler kestesindegi KlientName ‘Alimov Bekzod’ bolǵan jazıw óshiriledi"
+  },
+  {
+    quostion: "Tómendegi soraw neni ańlatadı: SELECT * FROM STUDENT;",
+    a: "STUDENT kestesin ózgertiw",
+    b: "!STUDENT kestesin tańlaw",
+    c: "STUDENT kestesin jaratıw",
+    d: "STUDENT kestesin óshiriw"
+  },
+  {
+    quostion: "Maǵlıwmatlardı usınıwdıń relyaciyalıq modelinde paydalanıwshısına maǵlıwmatlar qaysı kóriniste uzatıladı",
+    a: "!kesteler",
+    b: "dizimler",
+    c: "terek túrindegi graf",
+    d: "qálegen graf"
+  },
+  {
+    quostion: "Ekinshi normal formada tómendegishe talap qoyıladı:",
+    a: "Hámme maydanlar ekilemshi giltke baylanıslı",
+    b: "!Kesteniń hámme maydanları birinshi giltke baylanıslı",
+    c: "Hámme maydanlar ǵárezsiz",
+    d: "Hámme maydanlar giltsiz maydanlarǵa baylanıslı"
+  },
+  {
+    quostion: "Kortej bul ....?",
+    a: "!qatar",
+    b: "baǵana",
+    c: "keste",
+    d: "ketekshe"
+  },
+  {
+    quostion: "JOIN operatorı nege arnalǵan",
+    a: "Birinshi tańlawda bar, lekin ekinshisinde joq bolǵan nátiyjelerdi shıǵarıw ushın",
+    b: "Eki soraw tańlawınıń nátiyjelerin birlestiriw ushın",
+    c: "!Eki kesteden alınǵan nátiyjelerdi bir kestede birlestiriw ushın",
+    d: "Eki tańlawda bar ulıwma nátiyjelerdi shıǵarıw ushın"
+  },
+  {
+    quostion: "Ob’еkt atributı degende ne túsiniledi?",
+    a: "!keste baǵanası",
+    b: "keste qatarı",
+    c: "keste keteksheleri",
+    d: "keste"
+  },
+  {
+    quostion: "SELECT * FROM test ORDER BY atı ASC; Sorawdaǵı 'ASC' ne waziypa orınlaydı?",
+    a: "Atı baǵanasın saralaydı",
+    b: "Atı baǵanasın toparlaydı",
+    c: "Test kestesinen atı baǵanasın ajıratıp kórsetedi",
+    d: "!Atı baǵanasın ósip barıw tartibinde saralaydı"
+  },
+  {
+    quostion: "SELECT * FROM test ORDER BY jas DESC; Sorawdaǵı 'DESC' ne waziypa orınlaydı?",
+    a: "jas baǵanasın toparlaydı",
+    b: "Test kestesinen atı baǵanasın ajıratıp kórsetedi",
+    c: "!jas baǵanasın kerisine saralaydı",
+    d: "jas baǵanasın saralaydı"
+  },
+  {
+    quostion: "ALTER operatorınıń wazıypası?",
+    a: "Kestege qatar qosıw",
+    b: "!Maǵlıwmatlar bazasında obyektti ózgertiw",
+    c: "Maǵlıwmatlar bazasında obyektti óshiriw",
+    d: "Maǵlıwmatlar bazasında obyektti jaratıw"
+  },
+  {
+    quostion: "DELETE operatorınıń wazıypası?",
+    a: "Kesteden tańlaw",
+    b: "!Qatardı óshiriw",
+    c: "Kestege qatar qosıw",
+    d: "Kesteni ózgertiw"
+  },
+  {
+    quostion: "Qaysı predikat saralaw ushın isletiledi?",
+    a: "GROUP BY",
+    b: "!ORDER BY",
+    c: "WHERE",
+    d: "HAVING"
+  },
+  {
+    quostion: "Keste baǵanasındaǵı jıyındı mánisi qanday esaplanadı",
+    a: "MIN funkciyası járdeminde",
+    b: "MAX funkciyası járdeminde",
+    c: "!SUM funkciyası járdeminde",
+    d: "COUNT funkciyası járdeminde"
+  },
+  {
+    quostion: "Xızmetker kestesinen qálegen atributtıń maǵlıwmat tipin ózgertiw ámeli qaysı juwapta tuwrı kórsetilgen",
+    a: "ALTER TABLE `Xızmetker` MODIFY ALTER `Jınısı` varchar(10) not null",
+    b: "ALTER TABLE `Xızmetker` MODIFY CHANGE `Jası int(3) not null",
+    c: "ALTER TABLE `Xızmetker` CHANGE COLUMN `Tel_raqam` text(15) not null",
+    d: "!ALTER TABLE `Xızmetker` MODIFY `Jınısı` varchar(5)"
+  },
+  {
+    quostion: "DDL komandaların kórsetiń",
+    a: "INSERT, DROP, UPDATE, SELECT",
+    b: "CREATE, ALTER, DELETE",
+    c: "!CREATE, ALTER, DROP",
+    d: "INSERT, DELETE, UPDATE, SELECT"
+  },
+  {
+    quostion: "NOT, AND, OR operatorları wazıypası neden ibarat?",
+    a: "Arifmetikalıq ámeller hám operatorlar",
+    b: "!Logikalıq ámellerdi orınlaw",
+    c: "Salıstırıw ámellerin orınlaw",
+    d: "Ózlestiriw ámellrin orınlaw"
+  },
+  {
+    quostion: "SELECT COUNT(id) FROM STUDENT sorawi qanday nátiyje qaytaradı",
+    a: "STUDENTtiń aqırǵı identifikatorın",
+    b: "STUDENTtiń birinshi identifikatorın",
+    c: "!STUDENTlardıń sanın",
+    d: "STUDENTtiń maksimal indentifikatorın"
+  },
+  {
+    quostion: "Maǵlıwmatlardı usınıw modeliniń qaysı biri eń keń tarqalǵan esaplanadı",
+    a: "!relyaciyalıq",
+    b: "obyektke baǵdarlanǵan",
+    c: "tarmaqlı",
+    d: "ierarxiyalıq"
+  },
+  {
+    quostion: "Oqıtıwshılar hám studentler kesteleri arasındaǵı Qatnas túrin anıqlań",
+    a: "!n:m",
+    b: "n:1",
+    c: "1:1",
+    d: "1: m"
+  },
+  {
+    quostion: "DELETE * FROM Ónimler WHERE ID=2; sorawdıń nátiyjesin anıqlań",
+    a: "Ónimler kestesinen id 2 ge teń bolǵan qatardı qosadı",
+    b: "Ónimler kestesinen id 2 ge teń bolǵan qatardı belgileydi",
+    c: "!Ónimler kestesinen id 2 ge teń bolǵan qatardı barlıq maǵlıwmatların óshiredi",
+    d: "Ónimler kestesinen id 2 ge teń bolǵan baǵananı óshiredi"
+  },
+  {
+    quostion: "Tranzakciyalardıń tiykarǵı qásiyetleri",
+    a: "APID",
+    b: "CRUD",
+    c: "DDL",
+    d: "!ACID"
+  },
+  {
+    quostion: "Atributlarda saqlanatuǵın maǵlıwmatlar bul-",
+    a: "!atribut mánisleri",
+    b: "atribut sistemaları",
+    c: "maǵlıwmatlar bazası sistemaları",
+    d: "maǵlıwmatlar bazasın basqarıw sistemaları"
+  },
+  {
+    quostion: "Qaysı operator járdeminde «tanlaw» ámeli orınlanadı",
+    a: "INSERT",
+    b: "DELETE + WHERE",
+    c: "!SELECT + WHERE",
+    d: "UPDATE + WHERE"
+  },
+  {
+    quostion: "Domen bul ....?",
+    a: "!baǵana",
+    b: "keste",
+    c: "qatar",
+    d: "ketekshe"
+  },
+  {
+    quostion: "Student kestesinen Familiyası B háribi menen baslanıp, V háribi menen tamamlanıwshılardıń sanın sanaw sorawı qaysı juwapta tuwrı kórsetilgen",
+    a: "SELECT COUNT(*) as `Nátiyje` from `Student` WHERE LIKE `Familiyası` `B%V`",
+    b: "SELECT COUNT(*) as `Nátiyje` from `Student` WHERE LIKE `Familiyası` `B%V%`",
+    c: "SELECT COUNT(*) as `Nátiyje` from `Student` WHERE `Familiyası` LIKE `%B%V`",
+    d: "!SELECT COUNT(*) as `Nátiyje` from `Student` WHERE `Familiyası` LIKE `B%V`"
+  },
+  {
+    quostion: "CREATE operatorınıń wazıypası?",
+    a: "Kestege qatar qosıw",
+    b: "!Maǵlıwmatlar bazasında obyekt jaratıw",
+    c: "Maǵlıwmatlar bazasında obyektti óshiriw",
+    d: "Maǵlıwmatlar bazasında obyektti ózgertiw"
+  },
+  {
+    quostion: "Mazmun-baylanıs modelin birinshi bolıp kim usınıs etken",
+    a: "!Piter Chen",
+    b: "Tyuring",
+    c: "Edgar Kodd",
+    d: "Eyler"
+  },
+  {
+    quostion: "SELECT Name, Surname FROM student; Sorawında Name, Surname neni ańlatadı",
+    a: "Kesteler",
+    b: "Obyektler",
+    c: "!Baǵanalar",
+    d: "Qatarlar"
+  },
+  {
+    quostion: "Maǵlıwmatlarǵa ruxsat etiw qáwipsizligi qanday mexanizm menen támiynlenedi",
+    a: "Shifrlaw",
+    b: "Deshifrlaw",
+    c: "Tek ǵana maǵlıwmatlardı qorǵaw",
+    d: "!Paydalanıwshılar hám roller"
+  },
+  {
+    quostion: "UNION operatorı wazıypası",
+    a: "Kestelerdi qısqartadı",
+    b: "Kestelerdi ayıradı",
+    c: "!Kestelerdi birlestiredi",
+    d: "Eki kesteni enine qısqartadı"
+  },
+  {
+    quostion: "Ónim kestesinen qálegen atributtıń maǵlıwmat tipin ózgertiw ámeli qaysı juwapta tuwrı kórsetilgen",
+    a: "ALTER TABLE `Ónim` MODIFY ALTER `atı` varchar(10) null",
+    b: "ALTER TABLE `Ónim` MODIFY CHANGE `atı` text(3) null",
+    c: "ALTER TABLE `Ónim` CHANGE COLUMN `bahası` text(15) null",
+    d: "!ALTER TABLE `Ónim` MODIFY `bahası` varchar(15) null"
+  },
+  {
+    quostion: "DROP operatorının wazıypası?",
+    a: "Kestedege obyektti óshiriw",
+    b: "!Maǵlıwmatlar bazasınan obyektti óshiriw",
+    c: "Maǵlıwmatlar bazasınan obyektti ózgertiw",
+    d: "Kestege qatar qosıw"
+  },
+  {
+    quostion: "Upper operatorınıń wazıypası ne?",
+    a: "berilgen qatardı kishi háriplerge almastırıp beredi",
+    b: "berilgen qatardı kishi háriplerge almastırıp beredi",
+    c: "berilgen qatardı úlken háriplerge almastırıp beredi",
+    d: "!berilgen baǵananı úlken háriplerge almastırıp beredi"
+  },
+  {
+    quostion: "Qaysı SQL operatorları maǵlıwmatlar bazasında maǵlıwmatlardı táriyplewde isletiledi?",
+    a: "MODIFY, TRUNCATE",
+    b: "!CRATE, ALTER, DROP",
+    c: "GRANT, REVOKE",
+    d: "SELECT, UPDATE, INSERT, DELETE"
+  },
+  {
+    quostion: "INSERT operatorınıń wazıypası?",
+    a: "Qatardı óshiriw",
+    b: "!Kestege qatar qosıw",
+    c: "Kesteni ózgertiw",
+    d: "Kesteden tańlaw"
+  },
+  {
+    quostion: "Relyatciyalıq maǵlıwmatlar bazasındaǵı tiykarǵı túsiniklerdi anıqlań?",
+    a: "!Keste, maydan, jazıw",
+    b: "Keste, baǵana, qatar",
+    c: "Keste, baǵana, jazıw",
+    d: "Keste, baǵana"
+  },
+  {
+    quostion: "Maǵlıwmatlar bazası adminstratorı bul-",
+    a: "!bir yaki bir neshshe maǵlıwmatlar bazası haqqında tolıq túsinikke iye qánige bolıp, usı maǵlıwmatlar bazasın proektlestiriw hám qollanılıwın qadaǵalaw menen shuǵıllanadı",
+    b: "bir yaki bir neshshe maǵlıwmatlar toplamı haqqında tolıq túsinikke iye predmet taraw qánigesi",
+    c: "bir yaki bir neshshe maǵlıwmatlar bazasına texnikalıq xızmet kórsetiw menen shuǵıllanadı",
+    d: "maǵlıwmatlar bazasına tek ǵana tarmaqta xızmet kórsetiw menen shuǵıllanadı"
+  },
+  {
+    quostion: "SELECT MIN(jas), atı, familiya FROM test GROUP By atı, familiya; Sorawdaǵı MIN(jas) funkciyasınıń nátiyjesi?",
+    a: "Jas kestesiniń minimal mánisin esaplaw",
+    b: "min() funkciyası qáte",
+    c: "!Jas baǵanası minimal mánisin esaplaw",
+    d: "Jas qatarı minimal mánisin esaplaw"
+  },
+  {
+    quostion: "Soraw arqalı ónim obyektinen nannıń bahası ozgertilsin",
+    a: "DELETE ónim SET bahası= `1050` WHERE Ónim atı=`nan`",
+    b: "UPDATE nan SET bahası= `1050` WHERE Ónim atı=`ónim`",
+    c: "!UPDATE ónim SET bahası= `1050` WHERE Ónim atı=`nan`",
+    d: "UPDATE ónim SET Ónim atı=`nan` WHERE bahası= `1050`"
+  },
+  {
+    quostion: "MAX() agregat funkciyanıń wazıypasın aytıń",
+    a: "Belgilengen obyekttiń en úlken mánisin tabıw",
+    b: "!Belgilengen baǵananıń en úlken mánisin tabıw",
+    c: "Belgilengen qatardıń en úlken mánisin tabıw",
+    d: "Belgilengen elementtiń en úlken mánisin tabıw"
+  },
+  {
+    quostion: "Qatar bul?",
+    a: "!jazıw, kortej, ekzemplyar",
+    b: "atribut, maydan",
+    c: "fayl",
+    d: "annorgamma"
+  },
+  {
+    quostion: "Obyektler arasındaǵı Qatnas túrin anıqlań: student hám reyting dáptershesi",
+    a: "!1:1",
+    b: "m:1",
+    c: "n:m",
+    d: "m:1"
+  },
+  {
+    quostion: "Tranzakciya neshe qásiyetke iye",
+    a: "3 (SET)",
+    b: "2 (IN)",
+    c: "1 ()",
+    d: "!4 (ACID)"
+  },
+  {
+    quostion: "Ámeliy máseleler ushın avtomatlastırılǵan qayta islewdi támiynlewshi programma yaki programmalar kompleksine .............delinedi.",
+    a: "!maǵlıwmatlar bazasın basqarıw sisteması",
+    b: "maǵlıwmatlar bazaları",
+    c: "qosımshalar",
+    d: "maǵlıwmatlar sózligi"
+  },
+  {
+    quostion: "INSERT, UPDATE, DELETE tómendegi SQL tilleriniń qaysı birine tiyisli?",
+    a: "DQL",
+    b: "DSL",
+    c: "!DML",
+    d: "DDL"
+  },
+  {
+    quostion: "Relyaciyalıq algebra ámellrin kórsetiń",
+    a: "!Kesilisiw, birlestiriw, ayırma, dekard kóbeyme",
+    b: "Kesilisiw, qosıw, selekciya, dekard kóbeyme",
+    c: "Kesilisiw, selekciya, ayırma, dekard kóbeyme",
+    d: "Kesilisiw, qosıw, ayırma, selekciya, dekard kóbeyme"
+  },
+  {
+    quostion: "Studentler hám topar obyektleri arasındaǵı baylanıs modelin anıqlań",
+    a: "!n:1",
+    b: "1:1",
+    c: "n:m",
+    d: "baylanıspaǵan"
+  },
+  {
+    quostion: "Qaysı operator járdeminde «birlestiriw» ámeli orınlanadı",
+    a: "MINUS",
+    b: "DEVIDE",
+    c: "!UNION",
+    d: "INTERSECT"
+  },
+  {
+    quostion: "Qollanılıwına kóre MBBSlar qanday túrlerge bólinedi?",
+    a: "!bir hám kóp paydalanıwshılar",
+    b: "bir adımlı hám kóp adımlı",
+    c: "jeke hám jámáátlik",
+    d: "tolıq hám tolıq emes"
+  },
+  {
+    quostion: "Kesteler ortasındaǵı baylanıslardıń úsh túri durıs berilgen juwaptı kórsetiń",
+    a: "!Birge-kóp, birge-bir, kópke-kóp",
+    b: "Birge-úsh, birge-bir, kópke-kóp.",
+    c: "Birge-kóp, birge-bir, kópke-noaniq.",
+    d: "Birge-anıq, birge-bir, kópke-kóp."
+  },
+  {
+    quostion: "Tómendegi Soraw berilgen. SELECT Familiya, CONCAT(qala, ' ', rayon, ' ', manzil) AS manzil FROM student; AS járdemshi sóz wazıypası?",
+    a: "Manzil atamalı jańa qatorda soraw nátiyjelerin shıǵarıwǵa",
+    b: "Manzil atamalı jańa kestede soraw nátiyjelerin shıǵarıwǵa",
+    c: "Manzil atamalı jańa kortejda soraw nátiyjelerin shıǵarıwǵa",
+    d: "!Manzil atamalı jańa baǵanada soraw nátiyjelerin shıǵarıwǵa"
+  },
+  {
+    quostion: "MBBS arxitekturasınıń neshe basqıshı bar",
+    a: "!3 ew (Sırtqı, Konseptual hám Fizikalıq)",
+    b: "4 ew (Logikalıq, Colloborate, Fixed, Dinamikalıq)",
+    c: "5 ew (Fizikalıq, Tranzaktion, Concat, Insert, Set)",
+    d: "2 ew (Fixed, Dinamikalıq)"
+  },
+  {
+    quostion: "VARCHAR tipi bul -",
+    a: "materiallıq san",
+    b: "!ózgeriwsheń tiptegi qatar tipi",
+    c: "pútin tip",
+    d: "sáne hám waqıt"
+  },
+  {
+    quostion: "Maǵlıwmatlar bazası qáwipsizligin támiynlew nelerden ibarat boladı",
+    a: "Barlıq paydalanıwshılar ushın óz aldına maǵlıwmatlardı oqiw huqıqı",
+    b: "Tek ǵana avtorizaciyalasqan paydalanıwshılar ushın háreketlerdi orınlaw huqıqı",
+    c: "Belgili tiptegi paydalanıwshılar ushın maǵlıwmatlardı shifrlaw hám deshifrlaw",
+    d: "!Kesteler ústinde ayrım ámellerdi orınlaw huqıqı tek ǵana anıq paydalanıwshısına hám anıq waqıt dawamında beriledi"
+  },
+  {
+    quostion: "Unikal maydan dep qanday qatarǵa aytıladı",
+    a: "!mánisi qaytarılmaytuǵın maydan",
+    b: "mánisi birdey bolǵan at astındaǵı maydan",
+    c: "mánisi asıw qásiyetine iye maydan",
+    d: "mánisi basqası menen baylanıspaǵan maydan"
+  },
+  {
+    quostion: "Maǵlıwmatlar bazası tiykarǵı modelleri neshew?",
+    a: "!3 ew (Tarmaqlı, Relyaciyalıq, hám Ierarxiyalıq)",
+    b: "4 ew (Tarmaqlı, Remix, Demux, Filter)",
+    c: "5 ew (Relyaciyalıq, Set, Concat, Follow, Insert)",
+    d: "2 ew (Ierarxiyalıq, Set, Demux, Colloborate)"
+  },
+  {
+    quostion: "Qatnas ne?",
+    a: "!keste",
+    b: "baǵana",
+    c: "qatar",
+    d: "ketekshe"
+  },
+  {
+    quostion: "MySQL de CREATE VIEW operatorı isletilse",
+    a: "hár dayım hár qıylı",
+    b: "VIEW kestelerdi kórsetiw ushın xızmet qıladı",
+    c: "!keste(ler)den kerekli baǵanalar tańlanadı hám virtual usılda kórsatiledi",
+    d: "Dinamikalıq kesteden maǵlıwmat kórsetiledi"
+  },
+  {
+    quostion: "Kestedegi baǵanaǵa qoyılǵan qanday shekleniw baǵana mánisleriniń bos bolmawin kórsetedi",
+    a: "CHECK",
+    b: "!NOT NULL",
+    c: "FORGN KEY",
+    d: "UNIQUE"
+  },
+  {
+    quostion: "Durıs jazılǵan SELECT operatorın kórsetiń.",
+    a: "SELECT Table FROM",
+    b: "SELECT FROM * Table_name",
+    c: "!SELECT * FROM",
+    d: "SELECT *"
+  },
+  {
+    quostion: "CREATE TABLE keste jaratıw operatorında NOT NULL neni ańlatadı?",
+    a: "Keste qatarlarında probeller bolmawın",
+    b: "!Baǵanaǵa tiyisli bolǵan qatar mánisleri bos bolmawın",
+    c: "Baǵanaǵa tiyisli bolǵan qatar mánisleri bos bolıwın",
+    d: "Keste bos ekenligi"
+  },
+  {
+    quostion: "Xızmetker kestesinde `id`=5 bolǵan xızmetkerdiń Familiyasın ózgertiw ámeli qaysı juwapta tuwrı kórsetilgen",
+    a: "ALTER `Xızmetker` AS `Familiyası`=`Anvarov` where `id`=5",
+    b: "SELECT `Xızmetker` SET `Familiyası`=`Anvarov` where `id`=5",
+    c: "UPDATE `Xızmetker` `Familiyası`=`Anvarov` SET where `id`=5",
+    d: "!UPDATE `Xızmetker` SET `Familiyası`=`Anvarov` where `id`=5"
+  },
+  {
+    quostion: "Qaysı buyrıqlardan biri tranzakciyadaǵı ózgerislerdi saqlaw ushın xızmet qıladı",
+    a: "FLUSh",
+    b: "ROLLBACK",
+    c: "BEGIN TRANSACTION",
+    d: "!COMMIT"
+  },
+  {
+    quostion: "SELECT AVG(age) FROM STUDENT sorawı neni qaytaradı",
+    a: "Maksimal STUDENT",
+    b: "Minimal STUDENT",
+    c: "STUDENTler jasınıń jıyındısın",
+    d: "!STUDENT lerdiń ortasha jasın"
+  },
+  {
+    quostion: "Sáne waqıt tipi qaysı juwapta tuwrı kórsetilgen",
+    a: "INTEGER",
+    b: "!TIMESTAMP",
+    c: "NUMERIC",
+    d: "BOOLEAN"
+  },
+  {
+    quostion: "Bir sorawdıń ishinde jaylasqan ekinshi soraw qanday ataladı, mısal: SELECT * FROM STUDENT WHERE group_id IN (SELECT id FROM group WHERE number=‘217-18’)",
+    a: "parqlanbaydı",
+    b: "!ishki soraw (podzapros)",
+    c: "baylanıs",
+    d: "birlesiw"
+  },
+  {
+    quostion: "MBBSda DDL tilin wazıypası ne?",
+    a: "Maǵlıwmatlardı manipulyaciya qılıw tili",
+    b: "Maǵlıwmatlardı qadaǵalaw tili",
+    c: "Maǵlıwmatlardı saqlaw tili",
+    d: "!Maǵlıwmatlardı súwretlew tili"
+  },
+  {
+    quostion: "SELECT operatorında FROM sózinen keyingi jazıw neni bildiredi?",
+    a: "gilt maydanın",
+    b: "!kesteniń atın",
+    c: "baǵananıń atın",
+    d: "shártti"
+  },
+  {
     quostion: "SQL operatorlari asosan nechta guruxga bo’linadi ?",
     a: "4",
     b: "5",
